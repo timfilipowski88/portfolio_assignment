@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+
+#wrapper {
+    width: 970px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+#main_content {
+    background-image: radial-gradient(circle, #6f5964,#1f0f13);
+    padding: 30px;
+}
+.gray_bar {
+    background-image: linear-gradient(#c9c9ca, #898794, #c9c9ca);
+    color: #fbfbfb;
+}
+
+.light_pink {
+    background-image: linear-gradient(to right, #796b71, #dacbd9);
+}
+
+header {
+    padding: 15px 30px;
+}
+header h1 {
+    display: inline-block;
+    width: 300px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+header h2 {
+    width: 605px;
+    display: inline-block;
+    text-align: right;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about, #headshot {
+    display: inline-block;
+    vertical-align: top;
+    width: 430px;
+}
+
+#headshot {
+    border: 10px solid lightgray;
+    height: 325px;
+}
+
+div.about {
+    margin-left: 25px;
+    height: 345px;
+    background-image: linear-gradient(to right, #796b71, #dacbd9);
+}
+.about h2 {
+    background-image: linear-gradient(#c9c9ca, #898794, #c9c9ca);
+    color: #fbfbfb;
+
+}
+div.about h2, p, a {
+    padding: 10px;
+    }
+
+.about a {
+    color: black;
+}
+
+.project_section {
+    margin: 25px 25px 0 0;
+    display: inline-block;
+    width: 275px;
+    vertical-align: top;
+    background-image: linear-gradient(to right, #796b71, #dacbd9);   
+}
+
+.project_section h2 {
+    padding: 15px 10px;
+    background-image: linear-gradient(#c9c9ca, #898794, #c9c9ca);
+    color: #fbfbfb;
+
+}
+
+.project_section .section_image {
+    min-height: 100px;
+    width: 100%;
+}
+
+.project_section p {
+    min-height: 250px;
+    padding: 10px;
+}
+
+.project_section h3 {
+    padding: 10px;
+        background-image: linear-gradient(#c9c9ca, #898794, #c9c9ca);
+        color: #fbfbfb;
+
+}
+
+.project_section .language_icon {
+    display: inline-block;
+    padding: 10px 5px 10px 5px;
+    height: 2.5em;
+}
+
+.project_section h4 {
+    padding: 20px;
+    text-align: center;
+}
+
+.project_section button {
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid #254d3a;
+    background-color: #407d61;
+    color: #f6faf7;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    font-size: 1.2em;
+}
+
+.footer {
+    text-align: center;
+    background-color: inherit;
+    font-size: 1.2em;
+}
+
+.footer a {
+    color: black;
+}
+
+.footer a img {
+    vertical-align: bottom;
+    height: 1em;
+    padding: 3px;
+}
